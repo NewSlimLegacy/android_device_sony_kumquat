@@ -73,7 +73,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.semc.product.user_storage=emmc_only
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/../../../vendor/cm/prebuilt/common/bootanimation/480.zip:system/media/bootanimation.zip
+   $(LOCAL_PATH)/../../../vendor/slim/prebuilt/common/bootanimation/480.zip:system/media/bootanimation.zip
 
 # Hardware video codecs configurations
 PRODUCT_PROPERTY_OVERRIDES += \
