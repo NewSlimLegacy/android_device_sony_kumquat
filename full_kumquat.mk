@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/sony/kumquat/kumquat.mk)
 
 # Set correct device informations
-PRODUCT_NAME := full_kumquat
+PRODUCT_NAME := slim_kumquat
 PRODUCT_DEVICE := kumquat
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
